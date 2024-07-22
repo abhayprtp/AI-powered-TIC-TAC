@@ -59,7 +59,7 @@ int minimax(vector<vector<char>>& board, int depth, bool isMax, int alpha, int b
                     board[i][j] = EMPTY;
                     bestScore = max(bestScore, score);
                     alpha = max(alpha, bestScore);
-                    if (beta <= alpha) break; // Pruning
+                    if (beta <= alpha) break; // Pruning is occuring here
                 }
             }
         }
