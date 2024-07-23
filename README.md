@@ -43,7 +43,7 @@ tic-tac-toe-ai-cpp/
 └── README.md      # Project README file
 ```
 
-## Contributing
+## Contributing in
 
 Contributions are welcome! Feel free to submit issues and pull requests for any improvements or optimizations.
 
